@@ -7,7 +7,7 @@ const app = express();
 
 // connect to mlab database
 // make sure to replace my db string & creds with your own
-mongoose.connect('mongodb://ninja:test@ds161148.mlab.com:61148/graphql-ninja')
+mongoose.connect('mongodb+srv://goda-paperless-enterprise:Appaammam0nnu_1@cluster0-rc7gh.mongodb.net/graphql?retryWrites=true&w=majoritymongodb://ninja:test@ds161148.mlab.com:61148/graphql-ninja')
 mongoose.connection.once('open', () => {
     console.log('conneted to database');
 });
